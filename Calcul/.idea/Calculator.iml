@@ -7,7 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Parser.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Parser.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cal-postfix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cal-sexpr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cal.cpp" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

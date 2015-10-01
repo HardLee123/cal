@@ -4,6 +4,7 @@
 
 #include <string.h>
 #include "Parser.h"
+#include <iostream>
 
 using namespace std;
 
@@ -38,6 +39,9 @@ expr * Parser::Expressions() {
 
 expr * Parser::Factors() {
     expr * e=terms();
+    while (currentvalue==' '){
+        next();
+    }
     while (currentvalue=='*'){
         next();
         expr* e2=terms();
@@ -71,7 +75,7 @@ expr * Parser::terms() {
     }
 }
 bool Parser::JudgeDi() {
-    if (currentvalue>='0'||currentvalue<='9')
+    if (currentvalue>='0'&&currentvalue<='9')
         return true;
     else
         return false;
