@@ -16,7 +16,7 @@ we should specify each function to calculate numbers and output sequence we want
 
 <2> Execution instructions – How do I run the program(s)?
 
-I made one project including AST,Parser,and three main separately; and use Cmake to manange them, then link them together and run.
+I made one project including AST,Parser,and three mains separately; and use Cmake to manange them, then link them together and run.
 
 <3> Testing instructions – Is there a test suite? How do I use it.
 
